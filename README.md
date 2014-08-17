@@ -28,7 +28,7 @@ A small library providing throttling methods
                 redisSub: clientSub
             });
 
-  this.throttler.availableRequests(/*pubKey*/"test", function(available, result) {
+  this.throttler.availableRequests("test", function(available, result) {
 
     var now = (new Date()).getTime() / 1000;
 
