@@ -1,6 +1,6 @@
 {
   "name": "trottola",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy throttling for nodejs apps",
   "engines": {
     "node": "0.10.26",
