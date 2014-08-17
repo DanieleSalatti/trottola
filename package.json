@@ -1,0 +1,45 @@
+{
+  "name": "trottola",
+  "version": "0.0.0",
+  "description": "Easy throttling for nodejs apps",
+  "engines": {
+    "node": "0.10.26",
+    "npm": "1.4.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --bail --reporter spec test",
+    "cover": "istanbul cover _mocha -- --recursive --bail --reporter spec test",
+    "ci": "mocha --recursive --bail --watch test",
+    "jshint-lib": "jshint lib",
+    "jshint-test": "jshint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanieleSalatti/trottola.git"
+  },
+  "keywords": [
+    "throttling"
+  ],
+  "author": "Daniele Salatti <danielesalatti@gmail.com> (http://danielesalatti.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanieleSalatti/trottola/issues"
+  },
+  "homepage": "https://github.com/DanieleSalatti/trottola",
+  "devDependencies": {
+    "blessed": "^0.0.37",
+    "chai": "^1.9.1",
+    "istanbul": "0.3.0",
+    "jshint": "~2.5.1",
+    "mocha": "^1.21.4",
+    "multiline": "^0.3.4",
+    "pre-commit": "0.0.9",
+    "supertest": "^0.13.0"
+  },
+  "dependencies": {
+    "dtimer": "0.0.2",
+    "hiredis": "^0.1.17",
+    "redis": "^0.12.0"
+  }
+}
