@@ -1,7 +1,7 @@
 Trottola
 =========
 
-![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)
+![unstable](http://badges.github.io/stability-badges/dist/unstable.svg) [![build status](https://travis-ci.org/DanieleSalatti/trottola.svg?branch=master)](https://travis-ci.org/DanieleSalatti/trottola)
 
 A small library providing throttling methods
 
